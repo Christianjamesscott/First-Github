@@ -1,7 +1,8 @@
+import streamlit as st
+
 def main():
-    print("Hello, World!")
-    result = 2 + 2
-    print(f"2 + 2 = {result}")
+    st.title("Hello, Streamlit!")
+    st.write("This is a simple Streamlit app.")
 
 if __name__ == "__main__":
     main()
